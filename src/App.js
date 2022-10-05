@@ -1,12 +1,12 @@
+import TextComponent from './Components/text-component';
 
 import './App.css';
-import BackgroundComponent from './Components/background-component';
+
 
 function App() {
   return (
     <div className="App">
-      <BackgroundComponent />
-      {/* textComponent */}
+      <TextComponent />
     </div>
   );
 }
