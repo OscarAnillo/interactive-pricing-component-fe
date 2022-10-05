@@ -1,11 +1,14 @@
+import TextComponent from './Components/text-component';
 
 import './App.css';
+import PriceComponent from './Components/price-component';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Oscar Anillo</h1>
-      <p>Web UI Developer</p>
+      <TextComponent />
+      <PriceComponent />
     </div>
   );
 }
