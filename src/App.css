@@ -8,4 +8,14 @@
 .App {
   text-align: center;
   font-family: 'Manrope', sans-serif;
+  background-color: hsl (0, 0%, 100%);
+  height: 100vh;
+}
+
+/* BackgroundComponent */
+.bg-app {
+  background-color: rgb(241, 245, 254);
+  height: 600px;
+  width: 100%;
+  border-bottom-left-radius: 250px;
 }

@@ -1,11 +1,12 @@
 
 import './App.css';
+import BackgroundComponent from './Components/background-component';
 
 function App() {
   return (
     <div className="App">
-      <h1>Oscar Anillo</h1>
-      <p>Web UI Developer</p>
+      <BackgroundComponent />
+      {/* textComponent */}
     </div>
   );
 }
